@@ -514,14 +514,14 @@ section {
   background-blend-mode: color-burn;
 }
 
-  .left, .right, .lefter, .center:hover {
+  .center:hover {
     box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
   background-color: #ccf; 
   }
   
 .tools {
   transform: translateY(30px);
-  opacity: 0;
+  opacity: 1;
   transition: all .3s ease;
   bottom: 0;
   left: 5px;
@@ -530,6 +530,7 @@ section {
   color: #fff;
   text-shadow: 0 0 5px rgba(100, 100, 255, .6)
 }
+
 .lefter {
   transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
   background-image: url(https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png);
@@ -540,7 +541,7 @@ section {
 }
 .center {
   opacity: 1;
-  background-image: url(https://cdn1.iconfinder.com/data/icons/unigrid-file-extensions-vol-1/60/011_035_file_extension_css_style-512.png);
+  background-image: url(https://cdn0.iconfinder.com/data/icons/elpis/144/Web_Design-512.png);
 }
 .right {
   transform: translateX(30px) translateZ(-25px) rotateY(5deg);
@@ -548,7 +549,7 @@ section {
 }
 .righter {
   transform: translateX(60px) translateZ(-50px) rotateY(10deg);
-  background-image: url(https://cdn0.iconfinder.com/data/icons/elpis/144/Web_Design-512.png);
+  background-image: url(https://cdn1.iconfinder.com/data/icons/unigrid-file-extensions-vol-1/60/011_035_file_extension_css_style-512.png);
 }
 .explainer {
   font-weight: 300;
@@ -567,23 +568,6 @@ section {
 }
 
 
-.ref {
-  background-color: #000;
-  background-image: linear-gradient(to bottom, #d80, #c00);
-  border-radius: 3px;
-  padding: 7px 10px;
-  position: absolute;
-  font-size: 16px;
-  bottom: 10px;
-  right: 10px;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0 0 3px rgba(0, 0, 0, .4);
-}
-
-  .center&first-letter {
-    font-size: 12px;
-  }
 
 
 
