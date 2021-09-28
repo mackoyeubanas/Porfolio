@@ -463,7 +463,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+  background: radial-gradient(ellipse at bottom, black, black);
   font-weight: 300;
 }
 
