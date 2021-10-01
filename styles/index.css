@@ -162,6 +162,7 @@ nav ul li span:nth-child(4) {
   display: block;
   transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
   margin-top: -10px;
+  border-radius: 0 50% 50% 50%;
 }
 
 .photo:hover {
