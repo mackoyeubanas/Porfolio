@@ -82,7 +82,7 @@
 						</div>
 					</div>
 
-					<main class="main pb-5">
+					<main class="main py-5">
 						<div class="icon">
 							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							viewBox="0 0 348.9 348.9" style="enable-background:new 0 0 348.9 348.9;" xml:space="preserve">
@@ -119,7 +119,7 @@
 
 
 				<!-- About Me -->
-				<div class="container-fluid bg-fullblack text-center pt-5">
+				<div class="container-fluid bg-fullblack text-center py-5">
 					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -128,12 +128,18 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
+								<h2 class="text-white">Design and Build</h2>
+								<h5 class="text-white">This is my primary job since I graduate and travel abroad.</h5>
 								<img src="https://th.bing.com/th/id/OIP.PCEPnZCcZbLJ_Bke0CQIbwHaE9?pid=ImgDet&rs=1" class="d-block w-50 mx-auto" alt="...">	
 							</div>
 							<div class="carousel-item">
+								<h2 class="text-white">Rider</h2>
+								<h5 class="text-white">"I'd risk the fall just to know how it feels to fly"</h5>
 								<img src="https://th.bing.com/th/id/OIP.HvmUEeJn4PrPLthuR5mnCwHaE8?pid=ImgDet&rs=1" class="d-block w-50 mx-auto" alt="...">
 							</div>
 							<div class="carousel-item">
+								<h2 class="text-white">Music</h2>
+								<h5 class="text-white">"Music is the only languange in which you cannot say a mean or sarcastic thing."</h5>
 								<img src="https://th.bing.com/th/id/OIP.KvkOu6MjiLAKoMP2uD48yQHaFA?pid=ImgDet&rs=1" class="d-block w-50 mx-auto" alt="...">
 							</div>
 						</div>
@@ -148,39 +154,47 @@
 					</div>
 				</div>
 
-				<div class="container-fluid bg-fullblack py-5">
-					<div class="cursor"></div>
-					<h3 class="text-white mt-5 text-center text-danger" id="A"> About me</h3>
-					<div class="card-deck">
-						<div class="card text-white bg-secondary mx-auto mb-3" style="max-width: 18rem;">
-							<div class="card-header">Engineer</div>
-							<div class="card-body">
-								<h5 class="card-title">Design and Construction</h5>
-								<p class="card-text">"Each of us is carving a stone, erecting a column, or cutting a piece of stained glass in the construction of something much bigger than ourselves."</p>
+				<div class="container bg-fullblack py-5">
+					<div class="card">
+						<div class="box">
+							<div class="content">
+								<h5 class="engineer">Engineer</h5>
+								<h3>Design and Construction</h3>
+								<p>"Each of us is carving a stone, erecting a column, or cutting a piece of stained glass in the construction of something much bigger than ourselves."</p>
+								<a href="#">Read More</a>
 							</div>
 						</div>
-						<div class="card text-white bg-secondary mx-auto mb-3" style="max-width: 18rem;">
-							<div class="card-header">Management</div>
-							<div class="card-body">
-								<h5 class="card-title">Team Lead</h5>
-								<p class="card-text">"Leadership is the art of accomplishing more than the science of management says is possible. A good leader can’t get too ahead of his followers."</p>
+					</div>
+
+					<div class="card">
+						<div class="box">
+							<div class="content">
+								<h5 class="engineer">Management</h5>
+								<h3>Team Lead</h3>
+								<p>"Leadership is the art of accomplishing more than the science of management says is possible. A good leader can’t get too ahead of his followers."...</p>
+								<a href="#">Read More</a>
 							</div>
 						</div>
-						<div class="card text-white bg-secondary mx-auto mb-3" style="max-width: 18rem;">
-							<div class="card-header">Programmer</div>
-							<div class="card-body">
-								<h5 class="card-title">Full-Stack Developer</h5>
-								<p class="card-text">"With software there are only two possibilites: either the users control the programme or the programme controls the users. If the programme controls the users, and the developer controls the programme, then the programme is an instrument of unjust power."</p>
+					</div>
+
+					<div class="card">
+						<div class="box">
+							<div class="content">
+								<h5 class="engineer">Programmer</h5>
+								<h3>Full-Stack Developer</h3>
+								<p>"With software there are only two possibilites: either the users control the programme or the programme controls the users. If the programme... <!-- controls the users, and the developer controls the programme, then the programme is an instrument of unjust power." --></p>
+								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
 
+
 				<!-- End of content -->
 
 				<!-- footer -->
 				
-				<footer class="footer-distributed">
+			<footer class="footer-distributed">
 
 					<div class="footer-left">
 
@@ -245,22 +259,22 @@
       }
       clearTimeout(timeout);
       timeout = setTimeout(mouseStopped, 1000);
-  });
+    });
 
     //cursor effects when mouseout
     document.addEventListener("mouseout", () => {
     	cursor.style.display = "none";
     });
-</script>
+  </script>
 
 
-<!-- font awesome -->
-<script src="https://kit.fontawesome.com/e3d27268b6.js" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/e3d27268b6.js" crossorigin="anonymous"></script>
 
 
-<!-- Boostrap JS CDN -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <!-- Boostrap JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
 
