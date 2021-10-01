@@ -666,14 +666,14 @@ body .container .card .box .content a:hover {
 .education {
   --bg-color: darkred;
   --bg-color-light: #ffeeba;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 215, 97, 0.48);
 }
 
 .credentialing {
   --bg-color: #B8F9D3;
   --bg-color-light: #e2fced;
-  --text-color-hover: #4C5656;
+  --text-color-hover: black;
   --box-shadow-color: rgba(184, 249, 211, 0.48);
 }
 
@@ -687,7 +687,7 @@ body .container .card .box .content a:hover {
 .human-resources {
   --bg-color: #DCE9FF;
   --bg-color-light: #f1f7ff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: black;
   --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
